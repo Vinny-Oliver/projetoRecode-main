@@ -19,6 +19,7 @@ body {
     background-size: cover; /* Faz a imagem cobrir todo o fundo */
     background-position: center; /* Centraliza a imagem */
     color: #ffffff;
+    line-height: 1.6;
   }
 
 /* Header */
@@ -27,6 +28,7 @@ header {
     color: var(--dark);
     padding: 1rem;
     text-align: center;
+    
 }
 
 nav {
