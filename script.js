@@ -3,6 +3,11 @@ const defaultCity = 'Rio Grande do Sul'; // Cidade padrão
 let map;
 let isMapInitialized = false; // Verificação para inicialização única do mapa
 
+/*
+   A API utilizada é de código aberto,
+   o que permite seu uso livre e sem questões de plágio.
+*/
+
 // Função para buscar dados do clima atual
 async function fetchWeather(city) {
   try {
